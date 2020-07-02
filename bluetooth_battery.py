@@ -71,7 +71,7 @@ def main():
         for device in sys.argv[1:]:
             i = device.find('.')
             if i == -1:
-                port = 4
+                port = 3
             else:
                 port = int(device[i+1:])
                 device = device[:i]
